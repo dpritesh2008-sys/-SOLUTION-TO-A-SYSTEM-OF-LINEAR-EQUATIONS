@@ -15,16 +15,16 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 # Solve:
-# x - 3y = 0
-# 3x + y = 10
+x - 3y = 0
+3x + y = 10
 
-# From first equation: x = 3y
-# Substitute into second: 3(3y) + y = 10 → 10y = 10
+From first equation: x = 3y
+Substitute into second: 3(3y) + y = 10 → 10y = 10
 
 y = 1.0
 x = 3.0
 
-# Print in expected format
+Print in expected format
 print(f"[{x:.0f}. {y:.0f}.]")
 ## Output:
 <img width="1288" height="313" alt="image" src="https://github.com/user-attachments/assets/c7321dd6-2083-4c18-b492-a95050849ff1" />
