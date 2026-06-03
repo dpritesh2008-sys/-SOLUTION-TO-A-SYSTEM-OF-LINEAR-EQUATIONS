@@ -17,11 +17,17 @@ End the program
 # Solve:
 
 import os
+
 os.environ["OPENBLAS_NUM_THREADS"]="1"
+
 import numpy as np
+
 A=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
+
 B=np.array([-9,4,-1])
+
 C=np.linalg.solve(A,B)
+
 print(C)
 
 ## Output:
